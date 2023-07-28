@@ -1,0 +1,28 @@
+.section__otherfilm {
+    margin-top: 60px;
+}
+
+.otherfilm {
+    display: flex;
+    justify-content: space-between;
+
+    &--heading {
+        color: var(--black, #1C1C1C);
+        font-size: 35px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+
+    &--text {
+        width: 324px;
+        color: var(--black, #1C1C1C);
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 150%;
+        margin-top: 15px;
+    }
+}

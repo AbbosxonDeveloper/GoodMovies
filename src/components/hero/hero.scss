@@ -1,0 +1,45 @@
+.hero {
+    background: url('../../assets/hero-bck.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    color: #ffffff;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 20px;
+
+    &--text {
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin-bottom: 29px;
+    }
+
+    &--btn {
+        padding: 19px 46px;
+        flex-shrink: 0;
+        background-color: #DB202C;
+        color: #ffffff;
+        border: none;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+    &--btn:active {
+        background-color: transparent;
+        border: 1px solid red;
+        transition: all 0.2s ease;
+    }
+}
+
+h1 {
+    font-size: 74px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 8px;
+}

@@ -1,0 +1,52 @@
+.footer {
+    margin-top: 50px;
+    padding: 0 140px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 35px;
+    padding-bottom: 45px;
+    color: #ffffff;
+
+    &--form {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 36px;
+        width: 80%;
+    }
+
+    &--text {
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-bottom: 8px;
+    }
+
+    &--input {
+        width: 323px;
+        height: 50px;
+        flex-shrink: 0;
+        outline: none;
+        font-size: 20px;
+    }
+
+    &--submit {
+        width: 323px;
+        height: 53px;
+        flex-shrink: 0;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        margin-top: 25px;
+        background: var(--red, #DB202C);
+        border: none;
+        color: #ffffff;
+    }
+}
+
+.fsec {
+    background-color: var(--black, #1C1C1C);
+}
