@@ -4,7 +4,9 @@ export function Footer() {
     return (
         <section className='fsec'>
             <footer className="footer container">
-                <img src="src/assets/logo.png" width={70} height={36} alt="footer logo" />
+                <a href="/">
+                    <img src="src/assets/logo.png" width={70} height={36} alt="footer logo" />
+                </a>
                 <form className="footer--form">
 
                     <div className="footer--box">
