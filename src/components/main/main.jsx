@@ -25,7 +25,7 @@ export function Main() {
                         </div>
                     </div>
 
-                    <img src="src/assets/doctorstrange.jpg" alt="doctor strange" />
+                    <img src="src/assets/doctorstrange.png" alt="doctorstrange" />
                 </div>
 
             </main>
