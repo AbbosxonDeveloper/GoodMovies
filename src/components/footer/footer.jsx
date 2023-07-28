@@ -1,11 +1,12 @@
 import './footer.scss'
+import logo from '../../assets/logo.png'
 
 export function Footer() {
     return (
         <section className='fsec'>
             <footer className="footer container">
                 <a href="/">
-                    <img src="src/assets/logo.png" width={70} height={36} alt="footer logo" />
+                    <img src={logo} width={70} height={36} alt="footer logo" />
                 </a>
                 <form className="footer--form">
 

@@ -1,4 +1,5 @@
 import './main.scss'
+import doctorstrange from '../../assets/doctorstrange.jpg'
 
 export function Main() {
     return (
@@ -25,7 +26,7 @@ export function Main() {
                         </div>
                     </div>
 
-                    <img src="src/assets/doctorstrange.png" alt="doctorstrange" />
+                    <img src={doctorstrange} alt="doctorstrange" />
                 </div>
 
             </main>

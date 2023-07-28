@@ -1,4 +1,5 @@
 import './header.scss'
+import logo from '../../assets/logo.png'
 
 export function Header() {
     return (
@@ -6,7 +7,7 @@ export function Header() {
             <header className='header'>
 
                 <a href="/">
-                    <img src="src\assets\logo.png" alt="logo" />
+                    <img src={logo} alt="logo" />
                 </a>
 
                 <ul className='header--list'>
